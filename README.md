@@ -23,7 +23,7 @@ O app exibe um biscoito da sorte estilizado em SVG. Ao clicar em **"Quebrar Bisc
 
 ```bash
 git clone https://github.com/franxd1/FortuneCookie-App.git
-cd fortunecookieapp
+cd FortuneCookieApp
 ```
 
 ### 2. Instale as dependências
