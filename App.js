@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, TouchableOpacity, StyleSheet, ScrollView } from 'react-native';
 import FortuneCookieSVG from './components/FortuneCookieSVG';
 
-const phrases = [
+const frases = [
   'Seu coração é sábio. Siga seus instintos.',
   'O sucesso está mais perto do que você imagina.',
   'A felicidade começa com um simples sorriso.',
@@ -25,8 +25,8 @@ export default function App() {
   const [phrase, setPhrase] = useState('');
 
   const breakCookie = () => {
-    const randomIndex = Math.floor(Math.random() * phrases.length);
-    setPhrase(phrases[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * frases.length);
+    setPhrase(frases[randomIndex]);
     setIsBroken(true);
   };
 

@@ -48,9 +48,9 @@ const renderMessageLines = (message) => {
 export default function FortuneCookieSVG({ open, message }) {
     const lines = renderMessageLines(message);
 
-    const lineHeight = 28; // maior espaçamento para texto maior
+    const lineHeight = 28;
     const textBlockHeight = lines.length * lineHeight;
-    const startY = 80 + (96 - textBlockHeight) / 2 + 20; // ajustado para o novo tamanho
+    const startY = 80 + (96 - textBlockHeight) / 2 + 20;
 
     return (
         <Svg width="320" height="320" viewBox="0 0 320 320">
