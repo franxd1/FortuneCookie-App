@@ -7,6 +7,9 @@ Um aplicativo simples e divertido feito com **React Native** usando **Expo**, qu
 O app exibe um biscoito da sorte estilizado em SVG. Ao clicar em **"Quebrar Biscoito"**, o biscoito se abre e mostra uma frase aleatória. É possível clicar em **"Tentar Novamente"** para reiniciar.
 
 
+![Demonstração do App](./assets/Appgif.gif)
+
+
 ## 🚀 Tecnologias Utilizadas
 
 - [React Native](https://reactnative.dev/)
